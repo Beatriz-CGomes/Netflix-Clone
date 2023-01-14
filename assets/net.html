@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <title>Netflix.com.br/Filmes</title>
+</head>
+
+<body>
+    <header>
+        <a href="inicio.html">
+            <img class="Logo-logo" src="../assets/img/netflixlogo.png" alt="Logo Netflix">
+        </a>
+        <ul class="navegacao">
+            <li> <a href="inicio.html">Inicio</a></li>
+            <li> <a href="inicio.html">Séries</a></li>
+            <li> <a href="net.html">Filmes</a></li>
+            <li> <a href="net.html">Minha Lista</a></li>
+
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <img src="../assets/img/pesquisa.png" alt="search">
+        </div>
+    </header>
+
+
+    <div class="banner">
+        <img class="bg" src="../assets/img/bg.jpg" alt="Mulan">
+
+        <div class="content">
+            <img class="movieTitle" src="../assets/img/muland.png" alt="">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h55 Mint</span>
+                <span>Ação</span>
+            </h4>
+            <p>
+                Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Voluptas accusantium sint obcaecati? Illum numquam corrupti
+                perferendis,
+                quae consequatur atque id ipsa neque excepturi saepe animi doloribus quaerat quam quo sint.
+
+            </p>
+
+            <div class="buttons">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Minha Lista</a>
+            </div>
+        </div>
+
+        <a class="play" onclick="toggleVideo()">
+            <img src="../assets/img/play.png" alt="">
+            Assistir Trailer
+        </a>
+        </div>
+
+        <div class="trailer">
+            <video src="../assets/img/video.mp4" controls="true"></video>
+        <img src="../assets/img/close.png" class="close" onclick="toggleVideo()">
+        </div>
+
+
+        
+
+
+
+</body>
+<script src="../assets/script.js"></script>
+
+</html>

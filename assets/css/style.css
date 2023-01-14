@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background5.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.navbar img{
+    height: 45px;
+    width: 167px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+#select-idioma{
+    height: 2rem;
+    width: 6rem;
+    background-color: transparent;
+    color: #fff;
+}
+
+#select-idioma option{
+    background-color: #737373;
+}
+
+#btn-login{
+    height: 2rem;
+    width: 5rem;
+    background-color: #e50914;
+    border-style: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#btn-login a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 1rem;
+}
+
+#btn-login:hover {
+    background-color: #ff0e1a;
+}
+
+
+
+.story-card{
+    color: #fff;
+    min-width: 950px;
+    height: 495px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story-card-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.story-card-subtitle{
+    font-weight: 400;
+}
+
+.form-container{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 155px;
+}
+
+.form-convite{
+    font-weight: 400;
+}
+
+.form-container-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Email{
+width: 460px;
+font-size: 1rem;
+padding: 1.4rem 1rem;
+}
+
+#btn-form{
+    padding: 1.2rem 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border-style: none;
+    font-size: 1.5rem;
+}
+
+#btn-form a:hover {
+    background-color: #ff0e1a;
+}
